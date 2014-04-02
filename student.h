@@ -5,7 +5,7 @@ class Student
 {
   public:
   Student();
-  Student(char, char, major);
+  Student(char*, char*, major);
   ~Student();
   virtual void computeAver();
   
